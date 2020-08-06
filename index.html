@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="stt.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
 </head>
 
 
 <body class="domingo">
+    <div class="gridzada">
         <section>
-            <button type="button" class="btn btn-primary" onclick="velha()">Velha</button>
+            <button id="p1" type="button" class="contadorPTS btn4">0</button>
+            <button type="button" class="contadorPTS btn2" onclick="velha()">VELHA</button>
+            <button id="p2" type="button" class="contadorPTS btn4">0</button>
 
             <div class="grid-container">
                 <div class="a1 cor" onclick="a1f()"></div>
@@ -26,12 +31,15 @@
                 <div class="a9 cor" onclick="a9f()"></div>
             </div>
 
-              <button id="p1" type="button" class="contadorPTS btn-primary">0</button>
-              <button type="button" class="btn btn-primary" onclick="jogador1()">J-1</button>
-              <button type="button" class="btn btn-primary" onclick="jogador2()">J-2</button>
-              <button id="p2" type="button" class="contadorPTS btn-primary">0</button>
+
+              <button type="button" class="contadorPTS btn3" onclick="jogador1()">P1</button>
+              <button type="button" class="contadorPTS btn3" onclick="jogador2()">P2</button>
+              
               
         </section>
+
+        <footer>&copy; PAULO CRUZ</footer>
+    </div>
 
     <script type="text/javascript" src="javaS.js"></script>
 </body>

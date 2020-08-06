@@ -1,4 +1,4 @@
-alert('sadasd')
+//alert('sadasd')
 
 document.body.style.background = '#333'
 var x = 0
